@@ -2,14 +2,11 @@ package com.mycompany.teste;
 
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author Gabriel Michelotto
- */
 public class Teste {
     public static void main(String[] args){
         
-        Object[] options = { "Sim, sim, claro...", "Não, explica de novo." };
+       
+       Object[] options = { "Sim, sim, claro...", "Não, explica de novo." };
         int n = JOptionPane.showOptionDialog(null,
 				"Você entendeu este exemplo ? ",
 				"Exemplo", JOptionPane.YES_NO_OPTION,
@@ -45,6 +42,7 @@ public class Teste {
             default:
                 JOptionPane.showMessageDialog(null, "Operador Invalido!");
                 break;
-        }       
+        }     
     }
+      
 }
